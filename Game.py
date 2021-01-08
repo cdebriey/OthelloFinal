@@ -14,7 +14,65 @@ class Jeu:
         self.plateau.placePion((5, 4), COULEURS[1])
         self.plateau.placePion((5, 5), COULEURS[2])
 
- 
+        self.plateau.placePion((5, 2), COULEURS[1])
+        self.plateau.placePion((5, 3), COULEURS[2])
+        self.plateau.placePion((4, 1), COULEURS[2])
+        self.plateau.placePion((4, 2), COULEURS[2])
+        self.plateau.placePion((5, 1), COULEURS[2])
+        self.plateau.placePion((4, 3), COULEURS[2])
+        self.plateau.placePion((4, 6), COULEURS[2])
+        self.plateau.placePion((5, 6), COULEURS[2])
+        self.plateau.placePion((4, 7), COULEURS[2])
+        self.plateau.placePion((4, 8), COULEURS[2])
+        self.plateau.placePion((5, 7), COULEURS[2])
+        self.plateau.placePion((5, 8), COULEURS[2])
+        self.plateau.placePion((1, 4), COULEURS[2])
+        self.plateau.placePion((1, 5), COULEURS[2])
+        self.plateau.placePion((2, 4), COULEURS[2])
+        self.plateau.placePion((2, 5), COULEURS[2])
+        self.plateau.placePion((3, 4), COULEURS[2])
+        self.plateau.placePion((3, 5), COULEURS[2])
+        self.plateau.placePion((6, 4), COULEURS[2])
+        self.plateau.placePion((6, 5), COULEURS[2])
+        self.plateau.placePion((7, 4), COULEURS[2])
+        self.plateau.placePion((7, 5), COULEURS[2])
+        self.plateau.placePion((8, 4), COULEURS[2])
+        self.plateau.placePion((8, 5), COULEURS[2])
+        self.plateau.placePion((1, 3), COULEURS[2])
+        self.plateau.placePion((2, 3), COULEURS[2])
+        self.plateau.placePion((3, 3), COULEURS[2])
+        self.plateau.placePion((6, 3), COULEURS[2])
+        self.plateau.placePion((7, 3), COULEURS[2])
+        self.plateau.placePion((8, 3), COULEURS[2])
+        self.plateau.placePion((1, 1), COULEURS[2])
+        self.plateau.placePion((2, 1), COULEURS[2])
+        self.plateau.placePion((3, 1), COULEURS[2])
+        self.plateau.placePion((6, 1), COULEURS[2])
+        self.plateau.placePion((7, 1), COULEURS[2])
+        self.plateau.placePion((8, 1), COULEURS[2])
+        self.plateau.placePion((1, 2), COULEURS[2])
+        self.plateau.placePion((2, 2), COULEURS[2])
+        self.plateau.placePion((3, 2), COULEURS[2])
+        self.plateau.placePion((6, 2), COULEURS[2])
+        self.plateau.placePion((7, 2), COULEURS[2])
+        self.plateau.placePion((8, 2), COULEURS[2])
+        self.plateau.placePion((1, 6), COULEURS[2])
+        self.plateau.placePion((2, 6), COULEURS[2])
+        self.plateau.placePion((3, 6), COULEURS[2])
+        self.plateau.placePion((6, 6), COULEURS[2])
+        self.plateau.placePion((7, 6), COULEURS[1])
+        self.plateau.placePion((8, 6), COULEURS[2])
+        self.plateau.placePion((1, 7), COULEURS[2])
+        self.plateau.placePion((2, 7), COULEURS[2])
+        self.plateau.placePion((3, 7), COULEURS[2])
+        self.plateau.placePion((6, 7), COULEURS[2])
+        self.plateau.placePion((7, 7), COULEURS[2])
+        self.plateau.placePion((8, 7), COULEURS[2])
+        self.plateau.placePion((1, 8), COULEURS[2])
+        self.plateau.placePion((2, 8), COULEURS[2])
+        self.plateau.placePion((3, 8), COULEURS[1])
+        self.plateau.placePion((6, 8), COULEURS[1])
+        self.plateau.placePion((7, 8), COULEURS[2])
 
         self.__tour = 0
         self.dictscore = {}
@@ -101,7 +159,7 @@ class Jeu:
 #   score du joueur ayant déjà joué.
 
 """
-Copyright 2020 Benedict Agblevor & Charles de Briey
+Copyright 2021 Benedict Agblevor & Charles de Briey
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software
 and associated documentation files (the "Software"), to deal in the Software without restriction,
